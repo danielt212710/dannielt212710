@@ -1,14 +1,14 @@
-# Daniel Tuba — Frontend Portfolio
+# Daniel Tupa — Frontend Portfolio
 
 A single-page portfolio inspired by brittanychiang.com, but with its own identity: a neon-mint-on-deep-navy palette, a live WebGL background, and motion throughout.
 
 ## Layout
 
-Sticky-left / scrolling-right split, like the reference:
+Sticky-left / scrolling-right split, like the reference:    
 
 ```text
 +---------------------+-----------------------------+
-|  Daniel Tuba        |  ABOUT                      |
+|  Daniel Tupa        |  ABOUT                      |
 |  Frontend Engineer  |  ...                        |
 |  short blurb        |                             |
 |                     |  EXPERIENCE                 |
@@ -31,7 +31,7 @@ On mobile it collapses to a single stacked column with the intro on top.
 
 ## Content
 
-Placeholder-but-realistic copy for Daniel Tuba, Frontend Engineer — an about paragraph, 3 experience entries, 4–5 project cards with tech tags, and a tech-stack list. All plain text in one data file so it is trivial to swap for real details later.
+Placeholder-but-realistic copy for Daniel Tupa, Frontend Engineer — an about paragraph, 3 experience entries, 4–5 project cards with tech tags, and a tech-stack list. All plain text in one data file so it is trivial to swap for real details later.
 
 ## Design system
 

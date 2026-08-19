@@ -12,20 +12,31 @@ import {
   LayoutGrid,
   type LucideIcon,
 } from "lucide-react";
+
+import {
+  SiSharp,
+  SiDotnet,
+  SiPostgresql,
+  SiDocker,
+  // SiMicrosoftazure,
+  SiRedis,
+} from "react-icons/si";
+import type { IconType } from "react-icons";
+
 import { Reveal } from "./Reveal";
 import { about, education, experience, profile, projects, stack } from "@/data/portfolio";
 
-const skillIcons: Record<string, LucideIcon> = {
-  TypeScript: Atom,
-  React: Atom,
-  "WebGL / GLSL": Boxes,
-  "three.js": Box,
-  Motion: Sparkles,
-  "Tailwind CSS": Wind,
-  "Node.js": Hexagon,
-  Vite: Zap,
-  Accessibility: Accessibility,
-  "Design Systems": LayoutGrid,
+const skillIcons: Record<string, IconType> = {
+  "C#": SiSharp,
+  ".NET": SiDotnet,
+  "ASP.NET Core": SiDotnet,
+  "EF Core": SiDotnet,
+  "LINQ": SiDotnet,
+  "PostgreSQL": SiPostgresql,
+  "Docker": SiDocker,
+  // "Azure": SiMicrosoftazure,
+  "Redis": SiRedis,
+  // "Git / CI /CD": SiGit,
 };
 
 function SectionHeading({ children }: { children: string }) {
@@ -59,7 +70,7 @@ export function About() {
       <Reveal delay={0.1}>
         <ul className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
           {stack.map((s) => {
-            const Icon = skillIcons[s] ?? Atom;
+            const Icon = skillIcons[s] ?? SiDotnet;
             return (
               <li key={s}>
                 <motion.div
@@ -67,7 +78,7 @@ export function About() {
                   transition={{ type: "spring", stiffness: 300, damping: 24 }}
                   className="group flex flex-col items-center gap-2 rounded-xl border border-primary/20 bg-surface/30 px-3 py-4 text-center transition-colors hover:border-primary/50 hover:bg-surface/50 hover:shadow-glow"
                 >
-                  <Icon className="size-6 text-highlight transition-transform duration-300 group-hover:scale-110" strokeWidth={2} />
+                  <Icon className="size-6 text-highlight transition-transform duration-300 group-hover:scale-110" />
                   <span className="font-mono text-[11px] tracking-wide text-muted-foreground transition-colors group-hover:text-highlight">
                     {s}
                   </span>
@@ -140,14 +151,14 @@ export function Education() {
                     {e.degree}
                   </h3>
                   <p className="mt-1 font-mono text-xs text-highlight">{e.school}</p>
-                  <p className="mt-2 text-sm text-muted-foreground">{e.summary}</p>
+                  {/* <p className="mt-2 text-sm text-muted-foreground">{e.summary}</p>
                   <ul className="mt-3 flex flex-wrap gap-2">
                     {e.tech.map((t) => (
                       <li key={t}>
                         <Tag>{t}</Tag>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </div>
               </motion.article>
             </Reveal>

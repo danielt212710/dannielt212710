@@ -1,14 +1,14 @@
 export const profile = {
-  name: "Daniel Tuba",
-  title: "Frontend Engineer",
+  name: "Daniel Tupa",
+  title: "Software Engineer",
   tagline:
-    "I build immersive, high-performance interfaces where motion, shaders and accessibility meet.",
-  email: "hello@danieltuba.dev",
+    "I’m a software engineer specializing in C# and .NET, with a focus on backend architecture, distributed systems, and developer tooling. I enjoy turning complex problems into systems that are simple to reason about, observable in production, and built to last.",
+  email: "danielt212710@gmail.com",
   socials: [
-    { label: "GitHub", href: "https://github.com" },
+    { label: "GitHub", href: "https://github.com/danielt212710" },
     { label: "LinkedIn", href: "https://linkedin.com" },
-    { label: "X", href: "https://x.com" },
-    { label: "CodePen", href: "https://codepen.io" },
+    // { label: "X", href: "https://x.com" },
+    // { label: "CodePen", href: "https://codepen.io" },
   ],
 };
 
@@ -20,117 +20,114 @@ export const sections = [
 ] as const;
 
 export const about = [
-  "I'm a frontend engineer obsessed with the small details that make an interface feel alive — the easing curve of a card lifting, the grain of a shader running quietly behind the content, the way focus rings behave when you actually use a keyboard.",
-  "Most of my work sits at the intersection of design systems and real-time graphics: component libraries that scale across teams, and WebGL layers that stay at 60fps on a mid-range laptop. I care as much about bundle budgets and reduced-motion support as I do about the visuals.",
-  "Outside of work I write about rendering techniques, tinker with GLSL, and rebuild my own site far more often than is reasonable.",
+  "I don't just focus on the technical side of custom applications — I own the full stack, from architecture to delivery. Beyond the code, I care deeply about client experience, usability, and user experience. I have a clear view of what's feasible and deliver quality work efficiently.",
+  "Every project I take on comes with genuine passion and empathy. I love diving into a client's business logic and building the right solution for it. In this industry, I firmly believe that standing still means falling behind — so I never stop learning and exploring.",
 ];
 
 export const stack = [
-  "TypeScript",
-  "React",
-  "WebGL / GLSL",
-  "three.js",
-  "Motion",
-  "Tailwind CSS",
-  "Node.js",
-  "Vite",
-  "Accessibility",
-  "Design Systems",
+  "C#",
+  ".NET",
+  "ASP.NET Core",
+  "EF Core",
+  "LINQ",
+  "PostgreSQL",
+  "Docker",
+  "Redis",
 ];
 
 export const experience = [
   {
-    period: "2023 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Northsignal",
+    period: "Aug 2023 — Present",
+    role: "Senior Softeware Engineer",
+    company: "Ryventra",
     summary:
       "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
-    tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind"],
+    tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", ".Net"],
   },
   {
-    period: "2021 — 2023",
-    role: "Frontend Engineer",
-    company: "Fieldwork Studio",
+    period: "Aug 2021 — Jun 2023",
+    role: "Distinguished Software Engineer",
+    company: "BILL",
     summary:
-      "Built award-shortlisted marketing sites and product microsites for design-led clients. Owned the motion language: scroll choreography, page transitions, and a reduced-motion path that never felt like a downgrade.",
-    tech: ["React", "GSAP", "Motion", "Next.js", "GLSL"],
+      "Owner of the Angular platform and a 3.5-million-line mono repo, working in a complex organization involving cross-functional and cross-business products on the UI Platform team.Regularly mentored and motivated engineers and raised engineering standards across all the company. We achieved everything we set our eyes on.",
+    tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "GLSL"],
   },
   {
-    period: "2019 — 2021",
-    role: "UI Developer",
-    company: "Kestrel Labs",
+    period: "Oct 2019 — Oct 2021",
+    role: "Fullstack Software Engineer",
+    company: "Schlumberger",
     summary:
-      "Rebuilt a legacy dashboard as a componentised React app, cutting first-load JS by 62% and bringing the product to WCAG 2.1 AA across every core flow.",
-    tech: ["JavaScript", "React", "SCSS", "Storybook"],
+      "Responsible for developing RESTful apis in go and frontend development in angular, SASS, and HTML5, with e2e and unit test coverage.",
+    tech: ["JavaScript", "React", "SCSS", "Storybook","EESy", "Argo", "Golang"],
+  },
+  {
+    period: "Apr 2018 — Oct 2019",
+    role: "Lead UI Dev",
+    company: "Anadarko Petroleum Corporation",
+    summary:
+      "UI Lead for Real-Time Drilling in AAET (Advanced Analytics and Emerging Technologies). Publication acknowledgements: SPE-196228-MS, SPE-199584-MS, and SPE-199670-MS",
+    tech: ["MongoDB", "HTML5 and +7 skills"],
   },
 ];
 
 export const education = [
   {
-    period: "2017 — 2019",
-    degree: "MSc Computer Graphics & Visualisation",
-    school: "Delft University of Technology",
-    summary:
-      "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
-    tech: ["GLSL", "C++", "OpenGL", "Research"],
+    period: "2013 — 2015",
+    degree: "Bachelor of Science, Computer Engineering",
+    school: "Univeisity of Houston-Clear Lake",
+    // summary:
+    //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
+    // tech: ["GLSL", "C++", "OpenGL", "Research"],
   },
   {
-    period: "2014 — 2017",
-    degree: "BSc Software Engineering",
-    school: "University of Amsterdam",
-    summary:
-      "Graduated with honours. Built the student union's first accessible course-planning app and led the front-end track of the university hack society.",
-    tech: ["JavaScript", "Algorithms", "UX", "Accessibility"],
-  },
-  {
-    period: "Ongoing",
-    degree: "Continuous learning",
-    school: "Self-directed",
-    summary:
-      "Regularly working through shader art challenges, WebGPU specs and accessibility audits — the site you're reading is the current sandbox.",
-    tech: ["WebGPU", "Shader Art", "WCAG"],
+    period: "2009 — 2013",
+    degree: "Associate of Science, Mathematics",
+    school: "San Jacinto College",
+    // summary:
+    //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
+    // tech: ["GLSL", "C++", "OpenGL", "Research"],
   },
 ];
 
 export const projects = [
   {
-    title: "Fluxfield",
-    year: "2026",
-    description:
-      "A browser playground for fluid simulation. Paint velocity fields with the cursor and export the result as a looping shader you can drop into any site.",
-    tech: ["WebGL", "GLSL", "React", "TypeScript"],
-    href: "https://github.com",
-  },
-  {
-    title: "Cadence UI",
+    title: "PropertyFlow",
     year: "2025",
     description:
-      "An open-source React component library built around motion tokens — every component ships with a documented enter, exit and reduced-motion state.",
-    tech: ["React", "Motion", "Tailwind", "Storybook"],
-    href: "https://github.com",
+      "Real-estate property management platform for managing properties, units, tenants, leases, payments, and maintenance workflows. Contributed to the backend architecture and implemented core business services and REST APIs using C# and ASP.NET Core.",
+    tech: ["C#", "ASP.NET Core", "EF Core", "SQL Server"],
+    href: "https://www.propertyflow.site",
   },
   {
-    title: "Terrainer",
-    year: "2025",
-    description:
-      "Procedural terrain generator running entirely on the GPU. Tweak noise octaves and erosion in real time, then export a glTF mesh.",
-    tech: ["three.js", "GLSL", "Vite"],
-    href: "https://github.com",
-  },
-  {
-    title: "Slowloop",
+    title: "LedgerX",
     year: "2024",
     description:
-      "A minimal ambient music sequencer using the Web Audio API, with a canvas visualiser driven by live FFT data.",
-    tech: ["Web Audio", "Canvas", "TypeScript"],
-    href: "https://github.com",
+      "A financial infrastructure platform for managing digital-asset accounts, payment flows, transaction settlement, and blockchain-based transfers with an auditable double-entry ledger.",
+    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "Blockchain", "Ethereum"],
+    href: "https://www.ledgerx.org/",
   },
   {
-    title: "Lumen Docs",
-    year: "2024",
+    title: "ShopCore",
+    year: "2023",
     description:
-      "Documentation theme with instant search, MDX components and a perfect Lighthouse score on a 3G budget.",
-    tech: ["MDX", "Astro", "TypeScript"],
-    href: "https://github.com",
+      "An enterprise e-commerce platform for managing product catalogs, customers, shopping carts, orders, payments, inventory, promotions, and fulfillment across multiple sales channels.",
+    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ", "Vue.js"],
+    href: "https://shopcore.in",
+  },
+  {
+    title: "LearnSphere — Online Learning & Assessment Platform",
+    year: "2021",
+    description:
+      "Online learning and academic management platform supporting courses, student enrollment, assignments, examinations, grading, learning progress, and instructor communication.",
+    tech: ["C#", ".NET Core", "ASP.NET Core", "Angular"],
+    href: "https://www.cs.cmu.edu/~learnsphere/",
+  },
+  {
+    title: "CareTrack — Electronic Health Record Platform",
+    year: "2019",
+    description:
+      "Electronic Health Record platform built with React and TypeScript, providing healthcare providers with unified access to patient demographics, clinical encounters, diagnoses, medications, laboratory results, and longitudinal medical history.",
+    tech: ["React", "TypeScript", "Redux", "REST API", "Material-UI"],
+    href: "https://caretrack.com",
   },
 ];
