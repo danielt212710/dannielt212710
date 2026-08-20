@@ -25,6 +25,11 @@ export const about = [
 ];
 
 export const stack = [
+  "React",
+  "Typescript",
+  "Node.js",
+  "Sass",
+  "Tailwind",
   "C#",
   ".NET",
   "ASP.NET Core",
@@ -38,7 +43,7 @@ export const stack = [
 export const experience = [
   {
     period: "Aug 2023 — Present",
-    role: "Senior Softeware Engineer",
+    role: "Senior Software Engineer",
     company: "Ryventra",
     summary:
       "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
@@ -57,7 +62,7 @@ export const experience = [
     role: "Fullstack Software Engineer",
     company: "Schlumberger",
     summary:
-      "Responsible for developing RESTful apis in go and frontend development in angular, SASS, and HTML5, with e2e and unit test coverage.",
+      "Responsible for developing RESTful api in go and frontend development in angular, SASS, and HTML5, with e2e and unit test coverage.",
     tech: ["JavaScript", "React", "SCSS", "Storybook","EESy", "Argo", "Golang"],
   },
   {
@@ -74,7 +79,7 @@ export const education = [
   {
     period: "2013 — 2015",
     degree: "Bachelor of Science, Computer Engineering",
-    school: "Univeisity of Houston-Clear Lake",
+    school: "University of Houston-Clear Lake",
     // summary:
     //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
     // tech: ["GLSL", "C++", "OpenGL", "Research"],
@@ -91,26 +96,26 @@ export const education = [
 
 export const projects = [
   {
-    title: "PropertyFlow",
+    title: "PropertyFlow - Real Estate Property Management Platform",
     year: "2025",
     description:
-      "Real-estate property management platform for managing properties, units, tenants, leases, payments, and maintenance workflows. Contributed to the backend architecture and implemented core business services and REST APIs using C# and ASP.NET Core.",
+      "Responsible for designing and implementing backend services and business workflows using C# and ASP.NET Core. I developed REST APIs, implemented domain and persistence logic, integrated SQL-based data access, and worked on authentication, authorization, validation, and background processing.",
     tech: ["C#", "ASP.NET Core", "EF Core", "SQL Server"],
     href: "https://www.propertyflow.site",
   },
   {
-    title: "LedgerX",
+    title: "LedgerX - Digital Asset Settlement & Payment Platform",
     year: "2024",
     description:
-      "A financial infrastructure platform for managing digital-asset accounts, payment flows, transaction settlement, and blockchain-based transfers with an auditable double-entry ledger.",
+      "Improved transaction reliability by introducing idempotent processing and explicit transaction states, ensuring that retries or duplicate requests could not result in duplicate financial operations.",
     tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "Blockchain", "Ethereum"],
     href: "https://www.ledgerx.org/",
   },
   {
-    title: "ShopCore",
+    title: "ShopCore - Enterprise E-Commerce Platform",
     year: "2023",
     description:
-      "An enterprise e-commerce platform for managing product catalogs, customers, shopping carts, orders, payments, inventory, promotions, and fulfillment across multiple sales channels.",
+      "Developed checkout workflows that validated product availability, calculated order totals, applied promotions, and coordinated payment and order creation.",
     tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ", "Vue.js"],
     href: "https://shopcore.in",
   },
@@ -118,7 +123,7 @@ export const projects = [
     title: "LearnSphere — Online Learning & Assessment Platform",
     year: "2021",
     description:
-      "Online learning and academic management platform supporting courses, student enrollment, assignments, examinations, grading, learning progress, and instructor communication.",
+      "Responsible for developing backend services and academic workflows using C# and ASP.NET Core. Worked on course management, student enrollment, assignments, assessments, grading, authentication, and learning-progress tracking while focusing on maintainable architecture and reliable data processing.",
     tech: ["C#", ".NET Core", "ASP.NET Core", "Angular"],
     href: "https://www.cs.cmu.edu/~learnsphere/",
   },
@@ -126,7 +131,7 @@ export const projects = [
     title: "CareTrack — Electronic Health Record Platform",
     year: "2019",
     description:
-      "Electronic Health Record platform built with React and TypeScript, providing healthcare providers with unified access to patient demographics, clinical encounters, diagnoses, medications, laboratory results, and longitudinal medical history.",
+      "Responsible for developing the frontend of an Electronic Health Record platform using React and TypeScript. Built reusable clinical components and workflows for patient management, encounters, diagnoses, medications, laboratory results, and clinical documentation while focusing on usability, data validation, and reliable interaction with REST APIs.",
     tech: ["React", "TypeScript", "Redux", "REST API", "Material-UI"],
     href: "https://caretrack.com",
   },

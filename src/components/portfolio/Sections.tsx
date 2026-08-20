@@ -14,6 +14,11 @@ import {
 } from "lucide-react";
 
 import {
+  SiReact,
+  SiTypescript,
+  SiNodedotjs,
+  SiSass,
+  SiTailwindcss,
   SiSharp,
   SiDotnet,
   SiPostgresql,
@@ -27,6 +32,11 @@ import { Reveal } from "./Reveal";
 import { about, education, experience, profile, projects, stack } from "@/data/portfolio";
 
 const skillIcons: Record<string, IconType> = {
+  "React": SiReact,
+  "Typescript": SiTypescript,
+  "Node.js": SiNodedotjs,
+  "Sass": SiSass,
+  "Tailwind": SiTailwindcss,
   "C#": SiSharp,
   ".NET": SiDotnet,
   "ASP.NET Core": SiDotnet,
@@ -219,7 +229,7 @@ export function Contact() {
           Let's build something with texture.
         </h2>
         <p className="mt-3 max-w-md text-muted-foreground">
-          I'm open to frontend and creative engineering work. The fastest way to reach me is
+          I'm open to C#/.NET and full-stack engineering opportunities, with a strong focus on backend systems and scalable applications. The fastest way to reach me is
           email.
         </p>
         <a
