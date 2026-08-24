@@ -189,6 +189,7 @@ export function Projects() {
             <Reveal delay={i * 0.04}>
               <motion.a
                 href={p.href}
+                 onClick={(e) => e.preventDefault()}
                 target="_blank"
                 rel="noreferrer noopener"
                 whileHover={{ y: -4 }}
@@ -201,7 +202,7 @@ export function Projects() {
                 <div>
                   <h3 className="flex items-center gap-1.5 font-display text-base font-semibold text-foreground transition-colors group-hover:text-highlight">
                     {p.title}
-                    <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+                    {/* <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">{p.description}</p>
                   <ul className="mt-3 flex flex-wrap gap-2">

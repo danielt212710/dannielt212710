@@ -43,7 +43,7 @@ export const stack = [
 export const experience = [
   {
     period: "Aug 2023 — Present",
-    role: "Senior Software Engineer",
+    role: "Senior C# / .NET Software Engineer",
     company: "Ryventra",
     summary:
       "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
