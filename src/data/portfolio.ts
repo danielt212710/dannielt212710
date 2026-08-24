@@ -25,11 +25,6 @@ export const about = [
 ];
 
 export const stack = [
-  "React",
-  "Typescript",
-  "Node.js",
-  "Sass",
-  "Tailwind",
   "C#",
   ".NET",
   "ASP.NET Core",
@@ -38,6 +33,11 @@ export const stack = [
   "PostgreSQL",
   "Docker",
   "Redis",
+  "React",
+  "Typescript",
+  "Node.js",
+  "Sass",
+  "Tailwind",
 ];
 
 export const experience = [
@@ -101,7 +101,7 @@ export const projects = [
     description:
       "Responsible for designing and implementing backend services and business workflows using C# and ASP.NET Core. I developed REST APIs, implemented domain and persistence logic, integrated SQL-based data access, and worked on authentication, authorization, validation, and background processing.",
     tech: ["C#", "ASP.NET Core", "EF Core", "SQL Server"],
-    href: "https://www.propertyflow.site",
+    href: "https://",
   },
   {
     title: "LedgerX - Digital Asset Settlement & Payment Platform",
@@ -109,7 +109,7 @@ export const projects = [
     description:
       "Improved transaction reliability by introducing idempotent processing and explicit transaction states, ensuring that retries or duplicate requests could not result in duplicate financial operations.",
     tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "Blockchain", "Ethereum"],
-    href: "https://www.ledgerx.org/",
+    href: "https://",
   },
   {
     title: "ShopCore - Enterprise E-Commerce Platform",
@@ -117,7 +117,7 @@ export const projects = [
     description:
       "Developed checkout workflows that validated product availability, calculated order totals, applied promotions, and coordinated payment and order creation.",
     tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ", "Vue.js"],
-    href: "https://shopcore.in",
+    href: "https://",
   },
   {
     title: "LearnSphere — Online Learning & Assessment Platform",
@@ -125,7 +125,7 @@ export const projects = [
     description:
       "Responsible for developing backend services and academic workflows using C# and ASP.NET Core. Worked on course management, student enrollment, assignments, assessments, grading, authentication, and learning-progress tracking while focusing on maintainable architecture and reliable data processing.",
     tech: ["C#", ".NET Core", "ASP.NET Core", "Angular"],
-    href: "https://www.cs.cmu.edu/~learnsphere/",
+    href: "https://",
   },
   {
     title: "CareTrack — Electronic Health Record Platform",
@@ -133,6 +133,6 @@ export const projects = [
     description:
       "Responsible for developing the frontend of an Electronic Health Record platform using React and TypeScript. Built reusable clinical components and workflows for patient management, encounters, diagnoses, medications, laboratory results, and clinical documentation while focusing on usability, data validation, and reliable interaction with REST APIs.",
     tech: ["React", "TypeScript", "Redux", "REST API", "Material-UI"],
-    href: "https://caretrack.com",
+    href: "https://",
   },
 ];
