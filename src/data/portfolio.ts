@@ -42,7 +42,7 @@ export const stack = [
 
 export const experience = [
   {
-    period: "Aug 2023 — Present",
+    period: "Sep 2023 — Aug 2026  ",
     role: "Senior C# / .NET Software Engineer",
     company: "Ryventra",
     summary:
@@ -50,7 +50,7 @@ export const experience = [
     tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", ".Net"],
   },
   {
-    period: "Aug 2021 — Jun 2023",
+    period: "Aug 2020 — Aug 2023",
     role: "Distinguished Software Engineer",
     company: "BILL",
     summary:
@@ -58,20 +58,12 @@ export const experience = [
     tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "GLSL"],
   },
   {
-    period: "Oct 2019 — Oct 2021",
+    period: "Apr 2016 — Oct 2020",
     role: "Fullstack Software Engineer",
     company: "Schlumberger",
     summary:
       "Responsible for developing RESTful api in go and frontend development in angular, SASS, and HTML5, with e2e and unit test coverage.",
     tech: ["JavaScript", "React", "SCSS", "Storybook","EESy", "Argo", "Golang"],
-  },
-  {
-    period: "Apr 2018 — Oct 2019",
-    role: "Lead UI Dev",
-    company: "Anadarko Petroleum Corporation",
-    summary:
-      "UI Lead for Real-Time Drilling in AAET (Advanced Analytics and Emerging Technologies). Publication acknowledgements: SPE-196228-MS, SPE-199584-MS, and SPE-199670-MS",
-    tech: ["MongoDB", "HTML5 and +7 skills"],
   },
 ];
 
