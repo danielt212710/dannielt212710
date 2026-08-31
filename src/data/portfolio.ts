@@ -88,43 +88,43 @@ export const education = [
 
 export const projects = [
   {
-    title: "PropertyFlow - Real Estate Property Management Platform",
+    title: "StoreGrid E-commerce API - E-commerce Platform",
     year: "2025",
     description:
-      "Responsible for designing and implementing backend services and business workflows using C# and ASP.NET Core. I developed REST APIs, implemented domain and persistence logic, integrated SQL-based data access, and worked on authentication, authorization, validation, and background processing.",
-    tech: ["C#", "ASP.NET Core", "EF Core", "SQL Server"],
+      "Developed a scalable e-commerce backend using C# and ASP.NET Core Web API. Implemented APIs for product catalog, customer accounts, shopping carts, product variants, orders, and administrative operations. Used Entity Framework Core and SQL for data persistence and implemented JWT-based authentication and role-based authorization. Applied clean architecture principles and automated testing to improve maintainability and reliability.",
+    tech: ["ASP.NET Core", "C#", "Entity Framework Core", "SQL", "JWT"],
     href: "https://",
   },
   {
-    title: "LedgerX - Digital Asset Settlement & Payment Platform",
-    year: "2024",
-    description:
-      "Improved transaction reliability by introducing idempotent processing and explicit transaction states, ensuring that retries or duplicate requests could not result in duplicate financial operations.",
-    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "Blockchain", "Ethereum"],
-    href: "https://",
-  },
-  {
-    title: "ShopCore - Enterprise E-Commerce Platform",
+    title: "Healthcare Management System",
     year: "2023",
     description:
-      "Developed checkout workflows that validated product availability, calculated order totals, applied promotions, and coordinated payment and order creation.",
-    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ", "Vue.js"],
+      "Developed secure backend services for patient, physician, appointment, and medical-record management using C# and ASP.NET Core. Implemented REST APIs and Entity Framework for database operations and created role-based access for administrators, doctors, and patients. Added authentication, authorization, validation, and audit logging to support secure healthcare workflows.",
+    tech: ["ASP.NET Core", "C#", "Entity Framework"],
     href: "https://",
   },
   {
-    title: "LearnSphere — Online Learning & Assessment Platform",
+    title: "Neddle LMS - Learning Management System",
+    year: "2022",
+    description:
+      "Developed scalable backend services for an LMS using C# and .NET Core. Implemented functionality for course management, student enrollment, learning content, and user administration. Designed RESTful APIs and database access layers and implemented authentication and authorization for different user roles. Focused on scalability, maintainability, and reliable data processing.",
+    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ"],
+    href: "https://",
+  },
+  {
+    title: "Financial-Services — Financial Services Platform",
     year: "2021",
     description:
-      "Responsible for developing backend services and academic workflows using C# and ASP.NET Core. Worked on course management, student enrollment, assignments, assessments, grading, authentication, and learning-progress tracking while focusing on maintainable architecture and reliable data processing.",
-    tech: ["C#", ".NET Core", "ASP.NET Core", "Angular"],
+      "Developed backend services for financial transaction and account-management workflows using C# and ASP.NET Core. Designed REST APIs for financial operations, implemented business validation and transaction processing, and integrated SQL-based data persistence. Added authentication, error handling, logging, and automated testing to improve reliability and maintainability.",
+    tech: ["C#", ".NET Core", "ASP.NET Core"],
     href: "https://",
   },
   {
-    title: "CareTrack — Electronic Health Record Platform",
+    title: "Estate CMS — Real Estate Management Platform",
     year: "2019",
     description:
-      "Responsible for developing the frontend of an Electronic Health Record platform using React and TypeScript. Built reusable clinical components and workflows for patient management, encounters, diagnoses, medications, laboratory results, and clinical documentation while focusing on usability, data validation, and reliable interaction with REST APIs.",
-    tech: ["React", "TypeScript", "Redux", "REST API", "Material-UI"],
+      "Developed backend functionality for a real estate CMS using C# and ASP.NET Core. Implemented property management workflows, CRUD operations, user authentication, and database-driven functionality. Built maintainable MVC components and RESTful services while applying object-oriented design and clean coding practices.",
+    tech: ["React", "TypeScript", "Redux", "REST API", "ASP.NET Core", "C#"],
     href: "https://",
   },
 ];
