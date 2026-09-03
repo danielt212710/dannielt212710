@@ -3,7 +3,7 @@ export const profile = {
   title: "Software Engineer",
   tagline:
     "Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing. Experienced in developing and maintaining production-oriented applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools. Background includes software engineering internships with JP Morgan Chase & Co. and Northrop Grumman, with hands-on experience in enterprise application development, system modernization, quality engineering, and Agile software delivery. Strong understanding of object-oriented programming, data structures, algorithms, database design, API development, and software testing.",
-  email: "NicholasYardich@gmail.com",
+  email: "nicholasyardich1@gmail.com",
   socials: [
     { label: "GitHub", href: "https://github.com/NYardich" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/NYardich" },
