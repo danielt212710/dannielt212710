@@ -25,6 +25,19 @@ import {
   SiDocker,
   // SiMicrosoftazure,
   SiRedis,
+  SiOpenjdk,
+  SiC,
+  SiPython,
+  SiJavascript,
+  SiPhp,
+  SiSpring,
+  SiHibernate,
+  SiMysql,
+  SiMongodb,
+  SiGit,
+  SiJira,
+  SiApachemaven,
+  SiGooglecloud,
 } from "react-icons/si";
 import type { IconType } from "react-icons";
 
@@ -32,7 +45,16 @@ import { Reveal } from "./Reveal";
 import { about, education, experience, profile, projects, stack } from "@/data/portfolio";
 
 const skillIcons: Record<string, IconType> = {
+  "Java": SiOpenjdk,
   "React": SiReact,
+  "C": SiC,
+  "SQL": SiMysql,
+  "Python": SiPython,
+  "JavaScript": SiJavascript,
+  "PHP": SiPhp,
+  "Spring": SiSpring,
+  "Spring Framework": SiSpring,
+  "Hibernate": SiHibernate,
   "Typescript": SiTypescript,
   "Node.js": SiNodedotjs,
   "Sass": SiSass,
@@ -43,6 +65,14 @@ const skillIcons: Record<string, IconType> = {
   "EF Core": SiDotnet,
   "LINQ": SiDotnet,
   "PostgreSQL": SiPostgresql,
+  "Microsoft SQL Server": SiMysql,
+  "MySQL": SiMysql,
+  "MongoDB": SiMongodb,
+  "Relational Database Design": SiMysql,
+  "Git": SiGit,
+  "Jira": SiJira,
+  "Maven": SiApachemaven,
+  "Google Cloud": SiGooglecloud,
   "Docker": SiDocker,
   // "Azure": SiMicrosoftazure,
   "Redis": SiRedis,
@@ -124,11 +154,11 @@ export function Experience() {
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">{job.summary}</p>
                   <ul className="mt-3 flex flex-wrap gap-2">
-                    {job.tech.map((t) => (
+                    {/* {job.tech.map((t) => (
                       <li key={t}>
                         <Tag>{t}</Tag>
                       </li>
-                    ))}
+                    ))} */}
                   </ul>
                 </div>
               </motion.article>
@@ -189,7 +219,6 @@ export function Projects() {
             <Reveal delay={i * 0.04}>
               <motion.a
                 href={p.href}
-                 onClick={(e) => e.preventDefault()}
                 target="_blank"
                 rel="noreferrer noopener"
                 whileHover={{ y: -4 }}
@@ -202,7 +231,7 @@ export function Projects() {
                 <div>
                   <h3 className="flex items-center gap-1.5 font-display text-base font-semibold text-foreground transition-colors group-hover:text-highlight">
                     {p.title}
-                    {/* <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" /> */}
+                    <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
                   </h3>
                   <p className="mt-2 text-sm text-muted-foreground">{p.description}</p>
                   <ul className="mt-3 flex flex-wrap gap-2">
@@ -230,7 +259,7 @@ export function Contact() {
           Let's build something with texture.
         </h2>
         <p className="mt-3 max-w-md text-muted-foreground">
-          I'm open to C#/.NET and full-stack engineering opportunities, with a strong focus on backend systems and scalable applications. The fastest way to reach me is
+          I'm open to C#/Java/SQL/React and full-stack engineering opportunities, with a strong focus on backend systems and scalable applications. The fastest way to reach me is
           email.
         </p>
         <a

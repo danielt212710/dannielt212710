@@ -5,9 +5,9 @@ import { Sidebar } from "@/components/portfolio/Sidebar";
 import { About, Contact, Education, Experience, Projects } from "@/components/portfolio/Sections";
 import { sections } from "@/data/portfolio";
 
-const title = "Daniel Tupa — Software Engineer & Creative Developer";
+const title = "Nicholas Yardich — Software Engineer & Creative Developer";
 const description =
-  "Portfolio of Daniel Tupa, a Software engineer building immersive, high-performance interfaces with React, Typescript, C#, .NET, WebGL and motion...";
+  "Portfolio of Nicholas Yardich, a Software engineer building immersive, high-performance interfaces with React, Typescript, C#, .NET, WebGL and motion...";
 
 export const Route = createFileRoute("/")({
   head: () => ({

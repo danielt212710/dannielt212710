@@ -1,12 +1,12 @@
 export const profile = {
-  name: "Daniel Tupa",
+  name: "Nicholas Yardich",
   title: "Software Engineer",
   tagline:
-    "I’m a software engineer specializing in C# and .NET, with a focus on backend architecture, distributed systems, and developer tooling. I enjoy turning complex problems into systems that are simple to reason about, observable in production, and built to last.",
-  email: "danielt212710@gmail.com",
+    "Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing. Experienced in developing and maintaining production-oriented applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools. Background includes software engineering internships with JP Morgan Chase & Co. and Northrop Grumman, with hands-on experience in enterprise application development, system modernization, quality engineering, and Agile software delivery. Strong understanding of object-oriented programming, data structures, algorithms, database design, API development, and software testing.",
+  email: "NicholasYardich@gmail.com",
   socials: [
-    { label: "GitHub", href: "https://github.com/danielt212710" },
-    { label: "LinkedIn", href: "https://linkedin.com" },
+    { label: "GitHub", href: "https://github.com/NYardich" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/NYardich" },
     // { label: "X", href: "https://x.com" },
     // { label: "CodePen", href: "https://codepen.io" },
   ],
@@ -25,106 +25,106 @@ export const about = [
 ];
 
 export const stack = [
+  "Java",
   "C#",
-  ".NET",
-  "ASP.NET Core",
-  "EF Core",
-  "LINQ",
-  "PostgreSQL",
-  "Docker",
-  "Redis",
+  "C",
+  "SQL",
+  "Python",
+  "JavaScript",
+  "PHP",
+  "Spring",
+  "Spring Framework",
+  "Hibernate",
   "React",
-  "Typescript",
   "Node.js",
-  "Sass",
-  "Tailwind",
+  "Microsoft SQL Server",
+  "MySQL",
+  "MongoDB",
+  "Relational Database Design",
+  "Git",
+  "Jira",
+  "Maven",
+  "Google Cloud",
+  "Docker",
 ];
 
 export const experience = [
   {
-    period: "Sep 2023 — Aug 2026  ",
-    role: "Senior C# / .NET Software Engineer",
-    company: "Ryventra",
+    period: "JUN 2022 – AUG 2022 ",
+    role: "Software Engineering Intern",
+    company: "JP Morgan Chase & Co.",
     summary:
       "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
     tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", ".Net"],
   },
   {
-    period: "Aug 2020 — Aug 2023",
-    role: "Distinguished Software Engineer",
-    company: "BILL",
+    period: "MAY 2021 – JUL 2021",
+    role: "Software Engineering Intern",
+    company: "Northrop Grumman",
     summary:
-      "Owner of the Angular platform and a 3.5-million-line mono repo, working in a complex organization involving cross-functional and cross-business products on the UI Platform team.Regularly mentored and motivated engineers and raised engineering standards across all the company. We achieved everything we set our eyes on.",
+      "Contributed to the modernization of an enterprise scheduling system using Java, Spring, React, SQL, Maven, and Hibernate, implementing backend services, database integrations, and UI components for scalable and maintainable applications.",
     tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "GLSL"],
   },
   {
-    period: "Apr 2016 — Oct 2020",
-    role: "Fullstack Software Engineer",
-    company: "Schlumberger",
+    period: "NOV 2020 – JAN 2022",
+    role: "Director of Logistics and Hacker Experience",
+    company: "KnightHacks",
     summary:
-      "Responsible for developing RESTful api in go and frontend development in angular, SASS, and HTML5, with e2e and unit test coverage.",
+      "Led technical operations and infrastructure for a large-scale software development hackathon, coordinating developers, sponsors, mentors, schedules, workshops, and technical resources across multiple concurrent initiatives.",
     tech: ["JavaScript", "React", "SCSS", "Storybook","EESy", "Argo", "Golang"],
   },
 ];
 
 export const education = [
   {
-    period: "2013 — 2015",
-    degree: "Bachelor of Science, Computer Engineering",
-    school: "University of Houston-Clear Lake",
+    period: "AUG 2019 – DEC 2022",
+    degree: "Bachelor's degree in Computer Science",
+    school: "University of Central Florida",
     // summary:
     //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
     // tech: ["GLSL", "C++", "OpenGL", "Research"],
   },
-  {
-    period: "2009 — 2013",
-    degree: "Associate of Science, Mathematics",
-    school: "San Jacinto College",
+  // {
+    // period: "2009 — 2013",
+    // degree: "Associate of Science, Mathematics",
+    // school: "San Jacinto College",
     // summary:
     //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
     // tech: ["GLSL", "C++", "OpenGL", "Research"],
-  },
+  // },
 ];
 
 export const projects = [
   {
-    title: "StoreGrid E-commerce API - E-commerce Platform",
-    year: "2025",
+    title: "U-Ride",
+    year: "SEPT 2021 – DEC 2021",
     description:
-      "Developed a scalable e-commerce backend using C# and ASP.NET Core Web API. Implemented APIs for product catalog, customer accounts, shopping carts, product variants, orders, and administrative operations. Used Entity Framework Core and SQL for data persistence and implemented JWT-based authentication and role-based authorization. Applied clean architecture principles and automated testing to improve maintainability and reliability.",
-    tech: ["ASP.NET Core", "C#", "Entity Framework Core", "SQL", "JWT"],
-    href: "https://",
+      "Full-stack ridesharing application developed using the MERN stack (MongoDB, Express.js, React, Node.js) in a seven-person development team. Designed database structures, contributed to backend/API development, and co-developed the mobile application. Applied collaborative development practices using Git and Visual Studio Live Share.",
+    tech: ["MongoDB","Express.js","React.js","Node.js","JavaScript","RESTful APIs","Database Design","Git","Visual Studio Live Share","API Integration","Agile"],
+    href: "https://github.com/COP4331-Group3-Fall2021/U-Ride",
   },
   {
-    title: "Healthcare Management System",
-    year: "2023",
+    title: "WikiWho",
+    year: "SEPT 2021",
     description:
-      "Developed secure backend services for patient, physician, appointment, and medical-record management using C# and ASP.NET Core. Implemented REST APIs and Entity Framework for database operations and created role-based access for administrators, doctors, and patients. Added authentication, authorization, validation, and audit logging to support secure healthcare workflows.",
-    tech: ["ASP.NET Core", "C#", "Entity Framework"],
-    href: "https://",
+      "Full-stack contacts management application developed using the LAMP stack (Linux, Apache, MySQL, PHP). Designed and implemented database functionality, developed PHP API components, and led quality-assurance activities. Focused on application reliability, database integrity, and functional testing.",
+    tech: ["LAMP Stack", "Linux", "Apache", "MySQL", "PHP", "SQL", "REST APIs", "Database Design", "CRUD", "Functional Testing","QA"],
+    href: "https://github.com/Naton-1/POOSD-POOP-Group-Small_Project",
   },
   {
-    title: "Neddle LMS - Learning Management System",
-    year: "2022",
+    title: "EasyDAW",
+    year: "AUG 2018 – MAY 2019",
     description:
-      "Developed scalable backend services for an LMS using C# and .NET Core. Implemented functionality for course management, student enrollment, learning content, and user administration. Designed RESTful APIs and database access layers and implemented authentication and authorization for different user roles. Focused on scalability, maintainability, and reliable data processing.",
-    tech: ["C#", "ASP.NET Core", "EF Core", "PostgreSQL", "RabbitMQ"],
-    href: "https://",
+      "Java-based music education application developed independently for students and teachers. Designed the application architecture, GUI, relational database, and SQL data layer. Followed a self-managed Scrum methodology throughout development and delivery.",
+    tech: ["Java", "OOP", "GUI Development", "SQL", "Relational Databases", "Software Architecture", "Scrum"],
+    href: "https://github.com/NYardich/EasyDAW",
   },
   {
-    title: "Financial-Services — Financial Services Platform",
+    title: "Wildfire Watch",
     year: "2021",
     description:
       "Developed backend services for financial transaction and account-management workflows using C# and ASP.NET Core. Designed REST APIs for financial operations, implemented business validation and transaction processing, and integrated SQL-based data persistence. Added authentication, error handling, logging, and automated testing to improve reliability and maintainability.",
-    tech: ["C#", ".NET Core", "ASP.NET Core"],
-    href: "https://",
-  },
-  {
-    title: "Estate CMS — Real Estate Management Platform",
-    year: "2019",
-    description:
-      "Developed backend functionality for a real estate CMS using C# and ASP.NET Core. Implemented property management workflows, CRUD operations, user authentication, and database-driven functionality. Built maintainable MVC components and RESTful services while applying object-oriented design and clean coding practices.",
-    tech: ["React", "TypeScript", "Redux", "REST API", "ASP.NET Core", "C#"],
-    href: "https://",
+    tech: ["Python", "Computer Vision", "OpenCV", "Google Vision API", "Google Cloud", "Image Processing", "Video Processing", "Geolocation", "REST APIs", "AI/ML"],
+    href: "https://devpost.com/software/wildfire-watch-prgh25",
   },
 ];
