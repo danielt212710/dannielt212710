@@ -50,20 +50,20 @@ export const stack = [
 
 export const experience = [
   {
+    period: "Jan 2023 – Aug 2026",
+    role: "Software Engineering",
+    company: "JP Morgan Chase & Co.",
+    summary:
+      "Progressed to a Software Engineer role, taking greater ownership of front-end test automation and engineering initiatives. Developed and maintained automated testing solutions using Java, Gradle, Groovy, and internal tools, while collaborating with engineers to improve test coverage, software quality, and development efficiency.",
+    tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "C#", ".Net"],
+  },
+  {
     period: "JUN 2022 – AUG 2022 ",
     role: "Software Engineering Intern",
     company: "JP Morgan Chase & Co.",
     summary:
       "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
-    tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", ".Net"],
-  },
-  {
-    period: "MAY 2021 – JUL 2021",
-    role: "Software Engineering Intern",
-    company: "Northrop Grumman",
-    summary:
-      "Contributed to the modernization of an enterprise scheduling system using Java, Spring, React, SQL, Maven, and Hibernate, implementing backend services, database integrations, and UI components for scalable and maintainable applications.",
-    tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "GLSL"],
+    tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", "Java", ".Net"],
   },
   {
     period: "NOV 2020 – JAN 2022",
@@ -71,7 +71,7 @@ export const experience = [
     company: "KnightHacks",
     summary:
       "Led technical operations and infrastructure for a large-scale software development hackathon, coordinating developers, sponsors, mentors, schedules, workshops, and technical resources across multiple concurrent initiatives.",
-    tech: ["JavaScript", "React", "SCSS", "Storybook","EESy", "Argo", "Golang"],
+    tech: ["JavaScript", "React", "SCSS", "Java", "Storybook","EESy", "Argo", "Golang"],
   },
 ];
 
