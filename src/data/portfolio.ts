@@ -62,7 +62,7 @@ export const experience = [
     role: "Software Engineering Intern",
     company: "JP Morgan Chase & Co.",
     summary:
-      "Lead the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
+      "Led the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
     tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", "Java", ".Net"],
   },
   {
@@ -70,7 +70,7 @@ export const experience = [
     role: "Director of Logistics and Hacker Experience",
     company: "KnightHacks",
     summary:
-      "Led technical operations and infrastructure for a large-scale software development hackathon, coordinating developers, sponsors, mentors, schedules, workshops, and technical resources across multiple concurrent initiatives.",
+      "Supported the planning and execution of the KnightHacks Hackathon by managing event scheduling, IT infrastructure, and technical logistics. Worked closely with multiple stakeholders to coordinate workshops and Computer Science events while ensuring smooth event operations.",
     tech: ["JavaScript", "React", "SCSS", "Java", "Storybook","EESy", "Argo", "Golang"],
   },
 ];
