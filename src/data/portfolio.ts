@@ -1,8 +1,8 @@
 export const profile = {
   name: "Sangeet Asati",
-  title: "Software Engineer",
+  title: "Senior Software Engineer",
   tagline:
-    "Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing, with experience in AI development and integrating AI-powered solutions into applications. Skilled in building and maintaining production-ready applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools.",
+    "Senior Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing, with experience in AI development and integrating AI-powered solutions into applications. Skilled in building and maintaining production-ready applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools.",
   email: "sangeetasati930@gmail.com",
   socials: [
     // { label: "GitHub", href: "https://github.com/NYardich" },
