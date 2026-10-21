@@ -1,12 +1,12 @@
 export const profile = {
-  name: "Nicholas Yardich",
+  name: "Sangeet Asati",
   title: "Software Engineer",
   tagline:
-    "Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing. Experienced in developing and maintaining production-oriented applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools. Background includes software engineering internships with JP Morgan Chase & Co. and Northrop Grumman, with hands-on experience in enterprise application development, system modernization, quality engineering, and Agile software delivery. Strong understanding of object-oriented programming, data structures, algorithms, database design, API development, and software testing.",
-  email: "nicholasyardich40@gmail.com",
+    "Software Engineer with a strong foundation in Java, C#, SQL, full-stack development, software architecture, and automated testing, with experience in AI development and integrating AI-powered solutions into applications. Skilled in building and maintaining production-ready applications using Spring, React, Node.js, REST APIs, relational databases, and modern development tools.",
+  email: "sangeetasati930@gmail.com",
   socials: [
-    { label: "GitHub", href: "https://github.com/NYardich" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/NYardich" },
+    // { label: "GitHub", href: "https://github.com/NYardich" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/sangeetasati/" },
     // { label: "X", href: "https://x.com" },
     // { label: "CodePen", href: "https://codepen.io" },
   ],
@@ -50,48 +50,56 @@ export const stack = [
 
 export const experience = [
   {
-    period: "Jan 2023 – Aug 2026",
-    role: "Software Engineering",
-    company: "JP Morgan Chase & Co.",
+    period: "Nov 2022 – Sep 2026",
+    role: "Senior Software Engineer",
+    company: "FactSet",
     summary:
-      "Progressed to a Software Engineer role, taking greater ownership of front-end test automation and engineering initiatives. Developed and maintained automated testing solutions using Java, Gradle, Groovy, and internal tools, while collaborating with engineers to improve test coverage, software quality, and development efficiency.",
-    tech: ["Angular", "React", "GSAP", "Motion", "Next.js", "C#", ".Net"],
+      "Working in the IBS team to design and develop scalable, high-performance applications using modern technologies, ensuring optimized performance and reliability.",
+    tech: ["Python", "React", "AI", "AWS", "Cloud Computing", "Node.js", "C#", ".Net"],
   },
   {
-    period: "JUN 2022 – AUG 2022 ",
-    role: "Software Engineering Intern",
-    company: "JP Morgan Chase & Co.",
+    period: "Jul 2017 – Nov 2022 ",
+    role: "Senior Software Engineer",
+    company: "megidi",
     summary:
-      "Led the interface layer of a real-time analytics platform — a shader-backed data canvas rendering tens of thousands of points without dropping frames, plus the design system every product team builds on.",
-    tech: ["TypeScript", "React", "WebGL", "three.js", "Tailwind", "Java", ".Net"],
+      "Built secure pharmaceutical ordering and compliance systems using Python, Flask, REST APIs, DEA Schedule II regulations, digital signatures, and EDI X12 integrations, including 340B pricing, drug-shortage tracking, and automated product matching.Designed asynchronous processing and backend integrations using Celery, AWS SQS, Kubernetes, OpenSearch, MySQL, and external APIs, while integrating QuickBooks Online, HubSpot, and SendGrid to automate accounting, CRM synchronization, and transactional notifications, reducing manual bookkeeping by approximately 90%.Developed responsive web applications using Angular, AngularJS, DevExtreme, Bootstrap, and Flask REST APIs, implementing dashboards, server-side data processing, automated testing, API integration, deployment pipelines, and development documentation across development, staging, and production environments.",
+    tech: ["TypeScript", "React", "WebGL", "three.js", "Angular", "Java", ".Net", "Docker", "Python"],
   },
   {
-    period: "NOV 2020 – JAN 2022",
-    role: "Director of Logistics and Hacker Experience",
-    company: "KnightHacks",
+    period: "Jan 2017 – May 2018",
+    role: "Graduate Teaching Assistant",
+    company: "University of Central Florida",
     summary:
-      "Supported the planning and execution of the KnightHacks Hackathon by managing event scheduling, IT infrastructure, and technical logistics. Worked closely with multiple stakeholders to coordinate workshops and Computer Science events while ensuring smooth event operations.",
+      "Worked under the Professor Dr. Whiting throughout the semester and helped her to design assignment for course Internet Applications. Main responsibilities were to Grade the assignment and record them using UCF Grading Tool. Give some office hours to the course students for clarifying their doubts regarding the topic of Internet Applications.",
+    tech: ["Teaching Assistance", "Assignment Grading", "Student Support", "Internet Applications", "Academic Assessment"],
+  },
+  {
+    period: "Oct 2015 – Apr 2016",
+    role: "Web Developer",
+    company: "Peersome",
+    summary:
+      "As a member of the web development team, developed responsive websites and dynamic single-page applications using HTML, CSS, AngularJS, and REST APIs; designed interactive UI/UX for web and mobile platforms using Adobe Photoshop and Illustrator; built reusable code libraries; maintained and optimized websites for SEO; and created client surveys to gather feedback and improve user experience.",
     tech: ["JavaScript", "React", "SCSS", "Java", "Storybook","EESy", "Argo", "Golang"],
   },
 ];
 
 export const education = [
   {
-    period: "AUG 2019 – DEC 2022",
-    degree: "Bachelor's degree in Computer Science",
+    period: "2016 – May 2018",
+    degree: "Master's Degree in Computer Science",
     school: "University of Central Florida",
     // summary:
     //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
     // tech: ["GLSL", "C++", "OpenGL", "Research"],
   },
-  // {
-    // period: "2009 — 2013",
-    // degree: "Associate of Science, Mathematics",
-    // school: "San Jacinto College",
+  {
+    period: "2011 — 2015",
+    degree: "Bachelor’s Degree in Computer Science",
+    school: "University Institute of Technology, RGPV",
     // summary:
     //   "Thesis on real-time GPU noise fields for large-scale terrain rendering. Coursework in shading languages, numerical methods and human-computer interaction.",
     // tech: ["GLSL", "C++", "OpenGL", "Research"],
-  // },
+  },
 ];
 
 export const projects = [
